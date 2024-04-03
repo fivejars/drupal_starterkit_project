@@ -22,6 +22,12 @@
         "drush/drush": "^12.4",
         "wikimedia/composer-merge-plugin": "^2.1"
     },
+    "require-dev": {
+        "drupal/devel": "^5.2",
+        "drupal/shield": "^1.7",
+        "drupal/stage_file_proxy": "^2.1",
+        "fivejars/drupal-quality-check": "dev-master"
+    },
     "conflict": {
         "drupal/drupal": "*"
     },
@@ -34,6 +40,8 @@
             "phpstan/extension-installer": true,
             "dealerdirect/phpcodesniffer-composer-installer": true,
             "php-http/discovery": true,
+            "phpro/grumphp-shim": true,
+            "ergebnis/composer-normalize": true,
             "wikimedia/composer-merge-plugin": true
         },
         "sort-packages": true
