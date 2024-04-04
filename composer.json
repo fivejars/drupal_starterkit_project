@@ -16,6 +16,7 @@
     ],
     "require": {
         "composer/installers": "^2.0",
+        "cweagans/composer-patches": "^1.5.0",
         "drupal/core-composer-scaffold": "^10.2",
         "drupal/core-recommended": "^10.2",
         "fivejars/drupal_starterkit": "dev-master",
@@ -36,6 +37,7 @@
     "config": {
         "allow-plugins": {
             "composer/installers": true,
+            "cweagans/composer-patches": true,
             "drupal/core-composer-scaffold": true,
             "phpstan/extension-installer": true,
             "dealerdirect/phpcodesniffer-composer-installer": true,
@@ -85,6 +87,7 @@
             "web/themes/custom/{$name}": [
                 "type:drupal-custom-theme"
             ]
-        }
+        },
+        "enable-patching": true
     }
 }
