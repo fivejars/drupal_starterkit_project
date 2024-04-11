@@ -20,6 +20,7 @@
         "drupal/core-composer-scaffold": "^10.2",
         "drupal/core-recommended": "^10.2",
         "fivejars/drupal_starterkit": "dev-master",
+        "fivejars/drupal_starterkit_theme": "dev-main",
         "drush/drush": "^12.4",
         "wikimedia/composer-merge-plugin": "^2.1"
     },
