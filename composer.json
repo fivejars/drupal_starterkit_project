@@ -52,7 +52,8 @@
     "extra": {
         "merge-plugin": {
             "include": [
-                "web/profiles/contrib/starterkit/composer.libraries.json"
+                "web/modules/*/*/composer.libraries.json",
+                "web/profiles/*/*/composer.libraries.json"
             ]
         },
         "drupal-scaffold": {
